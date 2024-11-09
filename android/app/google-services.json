@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "855923272890",
+    "project_id": "traffic-monitoring-record",
+    "storage_bucket": "traffic-monitoring-record.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855923272890:android:cef9e105295f96de3ae683",
+        "android_client_info": {
+          "package_name": "com.example.trafficmonitoringrecord"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZkGO4BrJt_YxQCA6_hj1NA1sYIwwnVR4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855923272890:android:a10bdb5efb16a1003ae683",
+        "android_client_info": {
+          "package_name": "com.trafficmonitoringrecord.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZkGO4BrJt_YxQCA6_hj1NA1sYIwwnVR4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
