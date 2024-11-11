@@ -4,10 +4,13 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:trafficmonitoringrecord/screens/login.dart';
 import 'package:trafficmonitoringrecord/screens/mainScreen.dart';
 import 'package:trafficmonitoringrecord/screens/registration.dart';
+import 'firebase_options.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   runApp(TrafficRecordApp());
 }
 
@@ -50,10 +53,8 @@ class _AuthWrapperState extends State<AuthWrapper> {
   @override
   Widget build(BuildContext context) {
     if (_user != null) {
-      // If the user is already logged in, navigate to the home screen
-      return MainScreen(); // Replace this with your actual home screen
+      return MainScreen();
     } else {
-      // If the user is not logged in, show the login screen
       return LoginScreen();
     }
   }
